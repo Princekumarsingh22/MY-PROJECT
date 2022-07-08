@@ -1,0 +1,400 @@
+/* START FOOTER FOR ALL */
+.footer1 {
+  background: transparent;
+  padding: 30px 0px;
+  font-family: 'Play', sans-serif;
+  text-align: center;
+}
+
+.footer1 .row {
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0.6% 0%;
+  color: gray;
+  font-size: 0.8em;
+}
+
+.footer1 .row a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s;
+}
+
+.footer1 .row a:hover {
+  color: #fff;
+}
+
+.footer1 .row ul {
+  width: 100%;
+}
+
+.footer1 .row ul li {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.footer1 .row a i {
+  font-size: 2em;
+  margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+  .footer1 {
+    text-align: left;
+    padding: 5%;
+  }
+
+  .footer1 .row ul li {
+    display: block;
+    margin: 10px 0px;
+    text-align: left;
+  }
+
+  .footer1 .row a i {
+    margin: 0% 3%;
+  }
+}
+
+/* END FOOTER 2*/
+
+/* START STICKY SOCIAL MEDIA */
+#fixed-social {
+  position: fixed;
+  top: 250px;
+}
+
+#fixed-social a {
+  color: #fff;
+  display: block;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  line-height: 40px;
+  width: 40px;
+  margin-bottom: 1px;
+  z-index: 2;
+}
+
+#fixed-social a:hover>span {
+  visibility: visible;
+  left: 41px;
+  opacity: 1;
+}
+
+#fixed-social a span {
+  line-height: 40px;
+  left: 60px;
+  position: absolute;
+  text-align: center;
+  width: 120px;
+  visibility: hidden;
+  transition-duration: 0.5s;
+  z-index: 1;
+  opacity: 0;
+}
+
+.fixed-facebook {
+  background-color: #00AAE5;
+}
+
+.fixed-facebook span {
+  background-color: #00AAE5;
+}
+
+.fixed-twitter {
+  background-color: #7D3895;
+
+}
+
+.fixed-twitter span {
+  background-color: #7D3895;
+}
+
+.fixed-gplus {
+  background-color: #00AF54;
+
+}
+
+.fixed-gplus span {
+  background-color: #00AF54;
+}
+
+.fixed-linkedin {
+  background-color: #FFC41E;
+
+}
+
+.fixed-linkedin span {
+  background-color: #FFC41E;
+}
+
+.fixed-instagrem {
+  background-color: #ED2B29;
+
+}
+
+.fixed-instagrem span {
+  background-color: #ED2B29;
+}
+
+/* END STICKY SOCIAL MEDIA */
+
+/* START CIRCLE USER */
+#usercircle a:hover {
+  color: gray;
+}
+
+/* navbar2 image */
+.banner-part1 {
+  /*  background-color: gray; */
+   font-family: 'Roboto Condensed', sans-serif;
+   background-image: url('..//image/contact.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 85vh;
+   
+
+}
+
+/* CONTACT FORM START */
+.form4 {
+  /* background-color: transparent; */
+  background-color: whitesmoke;
+  background-size: cover;
+}
+
+.top {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.form-bg {
+  padding: 20px;
+  box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+}
+
+.form {
+  background-color: white !important;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.form-control {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #61615e;
+  background: transparent;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+button.btn {
+  display: block;
+  padding: 11px 32px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin: 30px 0px;
+}
+
+.btn-blue {
+  background-color: #4285f4;
+  color: #fff;
+  border: 1px solid #4285f4;
+
+}
+
+.contact-banner {
+  color: rgb(38, 113, 113);
+
+  /* box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3); */
+}
+
+.contact-banner h2 {
+  font-size: 10rem;
+}
+
+.contact-banner h2 {
+  font-weight: 500px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.row2 {
+  position: relative;
+  bottom: 15rem;
+}
+
+/* CONTACT FORM END */
+
+/*START FEAUTERED PROPERTY */
+.body1 {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.carousel1 {
+  width: 100%;
+  height: 40vw;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.carousel1:hover .controls1 {
+  opacity: 1;
+}
+
+.carousel1 .controls1 {
+  opacity: 0;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 99999;
+  transition: all ease 0.5s;
+}
+
+.carousel1 .controls1 .control1 {
+  margin: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  opacity: 0.5;
+  transition: ease 0.3s;
+  cursor: pointer;
+}
+
+.carousel1 .controls1 .control1:hover {
+  opacity: 1;
+}
+
+.carousel1 .slides1 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  width: 100%;
+  transition: 1s ease-in-out all;
+}
+
+.carousel .slides1 .slide {
+  min-width: 100%;
+  min-height: 250px;
+  height: auto;
+  background-size: cover;
+}
+
+/*END FEAUTERED PROPERTY */
+
+
+/* START agent SECTION */
+.profile-card {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+}
+
+.profile-card img {
+  width: 100%;
+  height: auto;
+  border: 1px solid red;
+  transform: scale(1.1, 1.1) translateX(0);
+  transition: all 0.50s ease 0s;
+}
+
+.profile-card:hover img {
+  transform: scale(1.1, 1.1) translateX(15px);
+}
+
+.profile-card .profile-content {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  color: #333;
+  padding: 20px;
+  text-align: right;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.6);
+  transform: scale(0.9, 0.9) translateY(100%);
+  transition: all 0.40s linear 0s;
+}
+
+.profile-card:hover .profile-content {
+  transform: scale(0.9, 0.9) translateY(0);
+}
+
+.profile-card .profile-content h3 {
+  margin: 0 0 10px;
+  font-size: 25px;
+}
+
+.profile-card .profile-content p {
+  margin: 0 0 10px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.profile-card .profile-content ul {
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+.profile-card .profile-content ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 7px;
+}
+
+.profile-card .profile-content ul li a {
+  display: block;
+  color: #333;
+  font-size: 20px;
+  text-align: center;
+  transition: all 0.50s linear 0s;
+}
+
+.profile-card .profile-content ul li a:hover {
+  text-decoration: none;
+  color: #808080;
+}
+/* END Agent SECTION */
+        
+
