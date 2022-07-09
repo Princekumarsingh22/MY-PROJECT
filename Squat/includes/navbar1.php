@@ -397,7 +397,7 @@
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-6 text-center mb-3">
-                <div class="card card-animation">
+                <div class="card">
                     <img src="image/h9.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="sell1.php">Building: 123 on the Park</a></h5>
