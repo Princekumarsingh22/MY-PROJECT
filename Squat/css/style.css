@@ -242,12 +242,16 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title {
     color: #fff;
   }
 }
+/* START CIRCLE USER */
+#usercircle a:hover {
+  color: gray;
+}
 
 /* service section */
 
-.service-grid {
+/* .service-grid {
   background: #fcfcfc;
-}
+} */
 
 .service-title h4 {
   position: relative;
@@ -294,7 +298,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title {
 }
 
 .service-wrap {
-  border: 1px solid #e6e6e6;
+  border: 1px solid white;
   padding: 50px 30px;
   position: relative;
 }
@@ -322,7 +326,6 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title {
   top: 0;
   opacity: 1;
 }
-
 .service-wrap:hover h4,
 .service-wrap:hover p {
   color: #fff;
@@ -822,9 +825,97 @@ a {
 /* END STICKY SOCIAL MEDIA */
 
 
+.service-title h4{
+  color: gray;
+  font-size: 3rem;
+}
+/*START FEAUTERED PROPERTY */
+.body1 {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 
+.carousel1 {
+  width: 100%;
+  height: 40vw;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
 
+.carousel1:hover .controls1 {
+  opacity: 1;
+}
 
+.carousel1 .controls1 {
+  opacity: 0;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 99999;
+  transition: all ease 0.5s;
+}
+
+.carousel1 .controls1 .control1 {
+  margin: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  opacity: 0.5;
+  transition: ease 0.3s;
+  cursor: pointer;
+}
+
+.carousel1 .controls1 .control1:hover {
+  opacity: 1;
+}
+
+.carousel1 .slides1 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  width: 100%;
+  transition: 1s ease-in-out all;
+}
+
+.carousel .slides1 .slide {
+  min-width: 100%;
+  min-height: 250px;
+  height: auto;
+  background-size: cover;
+}
+
+/*END FEAUTERED PROPERTY */
+/* START RECENT PROPERTY */
+.card-recent
+{
+  box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.card-recent img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.card-recent:hover img {
+  transform: scale(1.1);
+}
+/* END RECENT PROPERTY */
 
 
 

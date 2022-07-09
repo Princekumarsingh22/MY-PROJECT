@@ -308,10 +308,10 @@
 </section>
 
 <!-- SERVICE SECTION -->
-<section class="service-grid pb-5 pt-5">
+<section class="service-grid pb-5 pt-5" style="background-color:black;">
     <div class="container">
         <div class="row">
-            <div class="col-xl-12 text-center mb-4">
+            <div class="col-xl-12"><!-- text-center mb-4 -->
                 <div class="service-title">
                     <h4>Our Services</h4>
                 </div>
@@ -384,21 +384,21 @@
         </div>
     </div>
 </section>
-
+<br><br>
 <!-- RECENT PROPERTIES FOR SELL -->
-<section class="service-grid pb-5 pt-5">
-    <div class="container">
+<section class="service-grid pb-5 pt-5" style="background-color:whitesmoke;" >
+    <div class="container" >
         <div class="row">
-            <div class="col-xl-12 text-center mb-4">
+            <div class="col-xl-12"><!-- text-center mb-4 -->
                 <div class="service-title">
                     <h4>Recent Properties for Sell</h4>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row" >
             <div class="col-lg-4 col-md-6 text-center mb-3">
-                <div class="card">
-                    <img src="image/h9.jpg" class="card-img-top" alt="...">
+                <div class="card card-recent">
+                    <img src="image/h9.jpg" class="card-img-top" alt="no image">
                     <div class="card-body">
                         <h5 class="card-title"><a href="sell1.php">Building: 123 on the Park</a></h5>
                         <spam class="amt">₹347,120.00/month</spam>
@@ -421,8 +421,8 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center mb-3">
-                <div class="card">
-                    <img src="image/h7.jpg" class="card-img-top" alt="...">
+                <div class="card card-recent">
+                    <img src="image/h7.jpg" class="card-img-top" alt="no image">
                     <div class="card-body">
                         <h5 class="card-title"><a href="sell2.php">Building: 123 on the Park</a></h5>
                         <spam class="amt">₹347,120.00/month</spam>
@@ -445,8 +445,8 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center mb-3">
-                <div class="card">
-                    <img src="image/h6.jpg" class="card-img-top" alt="..." height="50rem">
+                <div class="card card-recent">
+                    <img src="image/h6.jpg" class="card-img-top" alt="no image" height="50rem">
                     <div class="card-body">
                         <h5 class="card-title"><a href="sell3.php">Building: 123 on the Park</a></h5>
                         <spam class="amt">₹347,120.00/month</spam>
@@ -473,10 +473,11 @@
     </div>
 </section>
 <!--START FEATURED PROPERTY -->
-<section class="service-grid pb-5 pt-5">
+<br>
+<section class="service-grid pb-5 pt-5" >
     <div class="container">
         <div class="row">
-            <div class="col-xl-12 text-center mb-4">
+            <div class="col-xl-12"><!-- text-center mb-4 -->
                 <div class="service-title">
                     <h4>Our Featured</h4>
                 </div>
@@ -541,35 +542,29 @@
 <section class="service-grid pb-5 pt-5">
     <div class="container">
         <div class="row">
-            <div class="col-xl-12 text-center mb-4">
+            <div class="col-xl-12"><!-- text-center mb-4 -->
                 <div class="service-title">
                     <h4>Properties in Cities</h4>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-3">
-                <h4 class="text-center">Mumbai</h4>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15092.204070594518!2d72.82162405!3d18.97335415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce6ea1b17137%3A0xfe198eb13bcbf5e3!2sMumbai%20Central%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1657043514052!5m2!1sen!2sin"
-                    style="border:1;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="col-sm-3">
+            
+            <div class="col-sm-4">
                 <h4 class="text-center">Delhi</h4>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.6755687280993!2d72.8563548148743!3d19.16567358703647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b72bbd82b7c9%3A0x33f509662b36dcb6!2sDelhi%20darbar!5e0!3m2!1sen!2sin!4v1657043562985!5m2!1sen!2sin"
                     style="border:1;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <h4 class="text-center">Patna</h4>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230292.83828455536!2d85.13756450000002!3d25.5940947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed593425a70f1f%3A0x1be26ed210ba9c5f!2sKurji%20More!5e0!3m2!1sen!2sin!4v1656471985087!5m2!1sen!2sin"
                     style="border:1 black solid;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <h4 class="text-center">Hyderabad</h4>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.626883011039!2d85.03765541499101!3d25.617311883702506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed57190c498971%3A0x52c278443d84c59c!2sHyderabadi%20biryani%20house!5e0!3m2!1sen!2sin!4v1657043478068!5m2!1sen!2sin"
@@ -581,16 +576,3 @@
 </section>
 <br>
 <br>
-
-
-<!-- <section class="service-grid pb-5 pt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12 text-center mb-4">
-                    <div class="service-title">
-                        <h4>Our Partners</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
