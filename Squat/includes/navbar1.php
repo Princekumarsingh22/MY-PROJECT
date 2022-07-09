@@ -199,15 +199,8 @@
                                 </li>
                             </ul>
                         </li> -->
-                            <li class="dropdown">
-                                <a href="contact.php" class="dropdown-toggle" data-toggle="dropdown"
-                                    data-hover="Pages">Help
-                                    <span></span></a>
-
-                                <ul class="dropdown-menu animated">
-                                    <li><a href="mailto:princekumarhjp12131@gmail.com">Mail</a></li>
-                                    <li><a href="tel:+919304574542">Contact</a></li>
-                                </ul>
+                        <li>
+                                <a href="contact.php" data-hover="Portfolio">Contact <span></span></a>
                             </li>
                             <li id="usercircle">
                                 <a href="#"><i class="fa-solid fa-circle-user" data-toggle="modal" data-target="#popUpWindow"
@@ -313,6 +306,7 @@
         </div>
     </div>
 </section>
+
 <!-- SERVICE SECTION -->
 <section class="service-grid pb-5 pt-5">
     <div class="container">
@@ -330,9 +324,7 @@
                         <i class="fa-solid fa-layer-group"></i>
                     </div>
                     <h4>Architects</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                        has
-                        been the industry...</p>
+                    <p >We will provide you the best architects who can give you the most desired home you want . With an affordable price in which you can manage it...</p>
                     <a href="#">Read More</a>
                 </div>
             </div>
@@ -342,9 +334,7 @@
                         <i class="far fa-chart-bar"></i>
                     </div>
                     <h4>Interior Decorators</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                        has
-                        been the industry...</p>
+                    <p>Our interior decorator will guide you throughout the manufacturing process or renovation process and helps you to get the best interior look you want...</p>
                     <a href="#">Read More</a>
                 </div>
             </div>
@@ -354,21 +344,20 @@
                         <i class="fas fa-database"></i>
                     </div>
                     <h4>Builders</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                        has
-                        been the industry...</p>
+                    <p>Person improves raw land with labor and capital, and arranges for utilities and essential services, in order to sell subdivided parcels of land or to build structures for rent and sell...</p>
                     <a href="#">Read More</a>
                 </div>
             </div>
+        </div>
+        <br>
+        <div class="row">    
             <div class="col-lg-4 col-md-6 text-center mb-3">
                 <div class="service-wrap">
                     <div class="service-icon">
                         <i class="fas fa-cogs"></i>
                     </div>
                     <h4>Building Contractors</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                        has
-                        been the industry...</p>
+                    <p>A construction contract is a mutual binding agreement between two parties based on policies and conditions recorded in document...</p>
                     <a href="#">Read More</a>
                 </div>
             </div>
@@ -378,9 +367,7 @@
                         <i class="fas fa-chart-pie"></i>
                     </div>
                     <h4>Property Consultants</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                        has
-                        been the industry...</p>
+                    <p>Our property consultant will provide you the properties that you will be fail to reject even a single one...</p>
                     <a href="#">Read More</a>
                 </div>
             </div>
@@ -390,15 +377,14 @@
                         <i class="fas fa-thumbs-up"></i>
                     </div>
                     <h4>Vaastu Consultant</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                        has
-                        been the industry...</p>
+                    <p>If a home is made after taking consultant from our vaastu consultant then in that home there will be only happiness...</p>
                     <a href="#">Read More</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 <!-- RECENT PROPERTIES FOR SELL -->
 <section class="service-grid pb-5 pt-5">
     <div class="container">
@@ -411,8 +397,8 @@
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-6 text-center mb-3">
-                <div class="card">
-                    <img src="image/house1.jpg" class="card-img-top" alt="...">
+                <div class="card card-animation">
+                    <img src="image/h9.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="sell1.php">Building: 123 on the Park</a></h5>
                         <spam class="amt">₹347,120.00/month</spam>
@@ -436,7 +422,7 @@
             </div>
             <div class="col-lg-4 col-md-6 text-center mb-3">
                 <div class="card">
-                    <img src="image/house1.jpg" class="card-img-top" alt="...">
+                    <img src="image/h7.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><a href="sell2.php">Building: 123 on the Park</a></h5>
                         <spam class="amt">₹347,120.00/month</spam>
@@ -460,7 +446,7 @@
             </div>
             <div class="col-lg-4 col-md-6 text-center mb-3">
                 <div class="card">
-                    <img src="image/house1.jpg" class="card-img-top" alt="...">
+                    <img src="image/h6.jpg" class="card-img-top" alt="..." height="50rem">
                     <div class="card-body">
                         <h5 class="card-title"><a href="sell3.php">Building: 123 on the Park</a></h5>
                         <spam class="amt">₹347,120.00/month</spam>

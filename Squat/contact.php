@@ -6,7 +6,7 @@
             <div class="container" >
                 <div class="row row1">
                     <div class="contact-banner" style="position:relative; bottom:35rem;"><!-- style1 -->
-                        <u><h2>Contact us</h2></u>
+                    <u><h2>Get it touch with us.</h2></u>
                     </div>
                 </div>
                 <div class="row row2">
