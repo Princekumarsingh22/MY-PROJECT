@@ -2,10 +2,14 @@
 <?php include('includes/navbar2.php');?>
 <section>
     <div class="container">
+        <div class="btnrent" style="display:flex; text-align:center;">
+            <button class="btn btn-danger"><a href="">Owner</a></button>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="btn btn-danger"><a href="">Hirer</a></button>
+        </div>
         <div class="row row1">
             <div class="contact-banner" style="position:relative; bottom:35rem;">
                 <u>
-                    <h2>Rent Property</h2>
+                    <h2>Rent</h2>
                 </u>
             </div>
         </div>

@@ -119,43 +119,8 @@
                                 </ul>
                             </li>
 
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="Pages">sell
-                                    <span></span></a>
-
-                                <ul class="dropdown-menu animated">
-                                    <li><a href="#">Flat</a></li>
-                                    <li><a href="#">House / Villas</a></li>
-
-                                    <li class="active">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Residential
-                                            Plots</a>
-
-                                        <!-- <ul class="dropdown-menu animated">
-                                                    <li><a href="#">Custom Menu</a></li>
-                                                    <li><a href="#">Custom Menu</a></li>
-    
-                                                    <li class="dropdown">
-                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sub
-                                                            Menu</a>
-    
-                                                        <ul class="dropdown-menu multi-dropdown animated">
-                                                            <li><a href="#">Custom Menu</a></li>
-                                                            <li><a href="#">Custom Menu</a></li>
-                                                            <li><a href="#">Custom Menu</a></li>
-                                                            <li><a href="#">Custom Menu</a></li>
-                                                        </ul>
-                                                    </li>
-    
-                                                    <li><a href="#">Custom Menu</a></li>
-                                                </ul> -->
-                                    </li>
-
-
-                                    <li><a href="#">Warehouse</a></li>
-                                    <li><a href="#">Factory</a></li>
-                                    <li><a href="#">Officespace</a></li>
-                                </ul>
+                            <li>
+                                <a href="sell1.php" data-hover="Portfolio">Sell <span></span></a>
                             </li>
 
                             <li>
