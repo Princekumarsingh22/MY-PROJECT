@@ -9,7 +9,7 @@
         <div class="row row1">
             <div class="contact-banner" style="position:relative; bottom:35rem;">
                 <u>
-                    <h2>Rent</h2>
+                    <h2>Rent Property</h2>
                 </u>
             </div>
         </div>
