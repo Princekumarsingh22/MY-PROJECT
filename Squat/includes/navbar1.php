@@ -69,8 +69,7 @@
                             </li>
 
                             <li id="usercircle">
-                                <a href="#"><i class="fa-solid fa-circle-user" data-toggle="modal"
-                                        data-target="#popUpWindow" style="font-size: 2em; margin-left: 12rem;"></i></a>
+                                <a href="login.php"><i class="fa-solid fa-circle-user" style="font-size: 2em; margin-left: 12rem;"></i></a>
                             </li>
 
                         </ul>
