@@ -279,70 +279,40 @@
                     <img src="image/h9.jpg" class="card-img-top" alt="no image">
                     <div class="card-body">
                         <h5 class="card-title"><a href="sell1.php">Building: 123 on the Park</a></h5>
-                        <spam class="amt">₹347,120.00/month</spam>
-                        <!-- <ul class="describe-1">
-                                <li><span class="icon-square icon-sm">
-                                    </span>1200 sq ft</li>
-                                <li><span class="icon "></span>2 bathrooms</li>
-                            </ul>
-                            <ul class="describe-2">
-                                <li><span class="icon "></span>4 bedrooms</li>
-                                <li><span class="icon "></span>2 garages</li>
-                            </ul> -->
+                        <spam class="amt">₹34,720.00/month</spam>
                         <br><br>
                         <p class="card-text">Introducing Brooklyn's most unique and genteel address: 123 on the
                             Park. A stately, one-of-a-kind rental residence directly overlooking Brooklyn's
                             famed
                             Prospect Park.</p>
-                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center mb-3">
                 <div class="card card-recent">
-                    <img src="image/h7.jpg" class="card-img-top" alt="no image">
+                    <img src="image/sell2/exterior2.jpg" class="card-img-top" alt="no image">
                     <div class="card-body">
-                        <h5 class="card-title"><a href="sell2.php">Building: Rosto on the Sea Beach</a></h5>
-                        <spam class="amt">₹347,120.00/month</spam>
-                        <!-- <ul class="describe-1">
-                                <li><span class="icon-square icon-sm">
-                                    </span>1200 sq ft</li>
-                                <li><span class="icon "></span>2 bathrooms</li>
-                            </ul>
-                            <ul class="describe-2">
-                                <li><span class="icon "></span>4 bedrooms</li>
-                                <li><span class="icon "></span>2 garages</li>
-                            </ul> -->
+                        <h5 class="card-title"><a href="sell2.php">764 W. Manor Station Drive East</a></h5>
+                        <spam class="amt">₹57,120.00/month</spam>
                         <br><br>
                         <p class="card-text">Introducing Brooklyn's most unique and genteel address: 123 on the
                             Park. A stately, one-of-a-kind rental residence directly overlooking Brooklyn's
                             famed
                             Prospect Park.</p>
-                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center mb-3">
                 <div class="card card-recent">
-                    <img src="image/h6.jpg" class="card-img-top" alt="no image" height="50rem">
+                    <img src="image/sell3/exterior3.jpg" class="card-img-top" alt="no image" height="50rem">
                     <div class="card-body">
-                        <h5 class="card-title"><a href="sell3.php">Building: 123 on the Park</a></h5>
-                        <spam class="amt">₹347,120.00/month</spam>
-                        <!-- <ul class="describe-1">
-                                <li><span class="icon-square icon-sm">
-                                    </span>1200 sq ft</li>
-                                <li><span class="icon "></span>2 bathrooms</li>
-                            </ul>
-                            <ul class="describe-2">
-                                <li><span class="icon "></span>4 bedrooms</li>
-                                <li><span class="icon "></span>2 garages</li>
-                            </ul> -->
+                        <h5 class="card-title"><a href="sell3.php">Vasundhara La Greeno</a></h5>
+                        <spam class="amt">₹ 62.67 Lac</spam>
                         <br><br>
                         <p class="card-text">Introducing Brooklyn's most unique and genteel address: 123 on the
                             Park. A stately, one-of-a-kind rental residence directly overlooking Brooklyn's
                             famed
                             Prospect Park.</p>
-                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                     </div>
                 </div>
             </div>

@@ -13,7 +13,7 @@ $page_title="Registration Form";
                         <h5>Registration Form</h5>
                     </div>
                     <div class="card-body">
-                        <form action="">
+                        <form action="code.php" method="POST">
                             <div class="form-group mb-3 ">
                                 <label for="">Name</label>
                                 <input type="text" name="name" class="form-control">
@@ -30,12 +30,12 @@ $page_title="Registration Form";
                                 <label for="">Password</label>
                                 <input type="password" name="password" class="form-control">
                             </div>
-                            <div class="form-group mb-3">
+                            <!-- <div class="form-group mb-3">
                                 <label for="">Confirm Password</label>
                                 <input type="password" name="confirm_password" class="form-control">
-                            </div>
+                            </div> -->
                             <div class="form-group">
-                                <button type="sumit" class="btn btn-primary">Register Now</button>
+                                <button type="sumit" class="btn btn-primary" name="register_btn">Register Now</button>
                             </div>
                         </form>
                     </div>

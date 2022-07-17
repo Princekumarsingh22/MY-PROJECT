@@ -1,11 +1,12 @@
 <?php include('includes/header.php');?>
 <?php include('includes/navbar2.php');?>
 <section>
+<h1 class="text-center text-capitalize bg-warning">This Property for sell</h1>
 <div class="container">
 <div class="row row1">
             <div class="contact-banner" style="position:relative; bottom:35rem;">
                 <u>
-                    <h2>Sell Property</h2>
+                    <h2>Sell</h2>
                 </u>
             </div>
         </div>

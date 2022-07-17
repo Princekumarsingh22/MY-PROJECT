@@ -1,85 +1,24 @@
-<?php include('includes/header.php'); ?>
-<style>
-  .containerimage {
-    background-color: whitesmoke;
-    width: 60%;
-    min-width: 450px;
-    position: relative;
-    margin: 50px auto;
-    padding: 50px 20px;
-    border:1px solid gray;
-    border-radius: 7px;
-    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.05);
-  }
 
-  input[type="file"] {
-    display: none;
-  }
-
-  .picsimage {
-    display: block;
-    position: relative;
-    background-color: #025bee;
-    color: #ffffff;
-    font-size: 18px;
-    text-align: center;
-    width: 300px;
-    padding: 18px 0;
-    margin: auto;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .containerimage p {
-    text-align: center;
-    margin: 20px 0 30px 0;
-  }
-
-  #images {
-    width: 90%;
-    position: relative;
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-
-  figure {
-    width: 45%;
-  }
-
-  img {
-    width: 100%;
-  }
-
-  figcaption {
-    text-align: center;
-    font-size: 2.4vmin;
-    margin-top: 0.5vmin;
-  }
-</style>
-<?php include('includes/navbar2.php'); ?>
 <section>
   <h1 class="text-center text-capitalize bg-warning">Include some details</h1>
   <div class="container containerimage ">
     <div class="row">
       <div class="col-md-12">
-        <form action="code.php" onsubmit="return validate()">
+        <form action="code.php" method="POST">
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Your Name*" name="name" required>
+            <input type="text" class="form-control" placeholder="Your Name*" name="name">
           </div>
           <div class="form-group">
-            <input type="email" class="form-control" placeholder="Your Email*" name="email" required>
+            <input type="email" class="form-control" placeholder="Your Email*" name="email">
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Contact Number*" name="number" required>
+            <input type="text" class="form-control" placeholder="Contact Number*" name="phone">
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Project Name" name="projectname" required>
+            <input type="text" class="form-control" placeholder="Project Name" name="projectname">
           </div>
           <div class="form-group">
-            <select class="form-control">
+            <select class="form-control" name="bedrooms">
               <option>Bedrooms*</option>
               <option>1</option>
               <option>2</option>
@@ -89,7 +28,7 @@
             </select>
           </div>
           <div class="form-group">
-            <select class="form-control">
+            <select class="form-control" name="furnishing">
               <option>Furnishing</option>
               <option>Furnished</option>
               <option>Semi-Furnished</option>
@@ -97,7 +36,7 @@
             </select>
           </div>
           <div class="form-group">
-            <select class="form-control">
+            <select class="form-control" name="constr_status">
               <option>Constructions status</option>
               <option>New Lunch</option>
               <option>Ready to Move</option>
@@ -105,7 +44,7 @@
             </select>
           </div>
           <div class="form-group">
-            <select class="form-control">
+            <select class="form-control" name="listedby">
               <option>Listed by</option>
               <option>Builder</option>
               <option>Dealer</option>
@@ -113,18 +52,19 @@
             </select>
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Maintenance (Monthly)" name="maintenance" required>
+            <input type="text" class="form-control" placeholder="Maintenance (Monthly)" name="maintenance">
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Total Floors" name="totalfloors" required>
+            <input type="text" class="form-control" placeholder="Total Floors" name="totalfloors">
           </div>
           <div class="form-group">
-            <textarea class="form-control" placeholder="Address"></textarea>
+            <textarea class="form-control" placeholder="Address" naem="address"></textarea>
           </div>
 
           <div class="container containerimage">
             <div class="picsimage">
-              <input type="file" id="file-input" accept="image/png, image/jpeg" onchange="preview()" multiple>
+              <input type="file" id="file-input" accept="image/png, image/jpeg,image/jpg" onchange="preview()"
+                name="upload" multiple>
               <label for="file-input">
                 <i class="fas fa-upload"></i> &nbsp; Choose Photo For Sell
               </label>
@@ -132,12 +72,86 @@
               <div id="images"></div>
             </div>
           </div>
-          <script src="js/scriptimage.js"></script>
-          <button type="submit" class="btn btn-primary" id="submit" name="btnsellimage">submit</button>
+          <button type="submit" class="btn btn-primary" id="submit" name="btnsellform">submit</button>
         </form>
       </div>
     </div>
   </div>
 </section>
 
-<?php include('includes/footer2.php'); ?>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Default checkbox
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+  <label class="form-check-label" for="defaultCheck2">
+    Disabled checkbox
+  </label>
+</div>
+
+
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  <label class="form-check-label" for="inlineCheckbox1">1</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+  <label class="form-check-label" for="inlineCheckbox2">2</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+  <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
+</div>
+
+
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form>
+

@@ -82,7 +82,7 @@
             <a href="donate_form.php" class="nav-link">
             <i class="nav-icon fab fa-wpforms"></i>
               <p>
-                Donate Form
+                PROPERTY INQUERY
               </p>
             </a>
           </li>    
