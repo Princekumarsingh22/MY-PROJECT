@@ -1,5 +1,20 @@
 <?php
 session_start();
+/* include('authentication.php'); */
+include("includes/connection.php");
+
+if(isset($_POST['logout_btn']))
+{
+   /*  session_destroy(); */
+    unset($_SESSION['auth']);
+    unset($_SESSION['auth_user']);
+
+    $_SESSION['status']="Logged Out successfully";
+    header('location: login.php');
+    exit(0);
+
+}
+
 /*  START PHP CODING OF CONTACT US SECTION  */
 if(isset($_POST["contact_btn"]))
 {
@@ -31,7 +46,7 @@ if(isset($_POST["contact_btn"]))
 /*  START SIGNUP FORM  */
 if(isset($_POST["signup_btn"]))
 {
- include("includes/connection.php");
+ 
 $uname=$_POST["unm"];
 $mobile=$_POST["mobile"];     //$pname=base64_encode($_POST["pnm"]);
 $email=$_POST["email"];
@@ -55,32 +70,32 @@ echo"<script>window.location='login.php'</script>";
 }
 /* END  SIGNUP FORM  */
 
-/* START LOGIN FORM */
-include("includes/connection.php");
-if(isset($_POST["login_btn"]))
-{
-   $email=$_POST["email"];
-   $password=$_POST["password"];
+// /* START LOGIN FORM */
+// include("includes/connection.php");
+// if(isset($_POST["login_btn"]))
+// {
+//    $email=$_POST["email"];
+//    $password=$_POST["password"];
 
-   $sql="select * from user_profile where useremail= '".$email."'";
-$rs=mysqli_query($con,$sql);
- if($row=mysqli_fetch_array($rs))
- {
- 	if($row["userpassword"]==$password)
- 	{
- 		echo"<script>alert('Login success')</script>";
-        echo"<script>window.location='index.php'</script>";
- 	}
- 	else
- 		echo"<script>alert('Invalid password')</script>";
+//    $sql="select * from user_profile where useremail= '".$email."'";
+// $rs=mysqli_query($con,$sql);
+//  if($row=mysqli_fetch_array($rs))
+//  {
+//  	if($row["userpassword"]==$password)
+//  	{
+//  		echo"<script>alert('Login success')</script>";
+//         echo"<script>window.location='index.php'</script>";
+//  	}
+//  	else
+//  		echo"<script>alert('Invalid password')</script>";
 
- }
- else
- 	echo"<script>alert('Invalid user id')</script>";
- mysqli_close($con);
+//  }
+//  else
+//  	echo"<script>alert('Invalid user id')</script>";
+//  mysqli_close($con);
 
-}
-/* END LOGIN FORM */
+// }
+// /* END LOGIN FORM */
 
 /* START FORGET PASSWORD */
 /* include("includes/connection.php");

@@ -27,16 +27,26 @@ if(isset($_POST['signup'])){
                         values('$name', '$email', '$encpass', '$code', '$status')";
         $data_check = mysqli_query($con, $insert_data);                      
         if($data_check){
+
+
+
             $subject = "Email Verification Code";
             $message = "Your verification code is $code";
-            $sender = "From: linuxhjp1213@gmail.com";
-            if(mail($email, $subject, $message, $sender)){
+             $sender = "From: linuxhjp1213@gmail.com";
+
+              
+
+
+            if(mail($email, $subject, $message, $sender))
+            {
                 $info = "We've sent a verification code to your email - $email";
                 $_SESSION['info'] = $info;
                 $_SESSION['email'] = $email;
                 $_SESSION['password'] = $password;
                 header('location: user-otp.php');
                 exit();
+
+                
             }else{
                 $errors['otp-error'] = "Failed while sending code!";
             }

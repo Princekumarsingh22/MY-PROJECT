@@ -1,4 +1,4 @@
-1<?php include('includes/header.php') ?>
+<?php include('includes/header.php') ?>
 			<!-- Begin content with sidebar -->
 			<div class="container">
 				<div class="row">

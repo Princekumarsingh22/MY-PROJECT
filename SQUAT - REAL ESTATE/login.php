@@ -135,7 +135,7 @@
 
 <body>
     <div class="login-dark" style="height: 695px;">
-        <form onsubmit="return validate();" action="code.php" method="POST">
+        <form onsubmit="return validate();" action="logincode.php" method="POST">
             <h2 class="sr-only">Login Form</h2>
             <div class="illustration">
                 <i class="icon ion-ios-locked-outline"></i>
