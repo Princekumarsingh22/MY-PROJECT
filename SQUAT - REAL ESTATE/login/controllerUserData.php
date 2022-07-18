@@ -28,7 +28,7 @@ if(isset($_POST['signup'])){
         $data_check = mysqli_query($con, $insert_data);                      
         if($data_check){
 
-                    $phone = "+919304574542"; // target number; includes ISD
+                    $phone = $email; // target number; includes ISD
                     $api_key = '2ef633e8-05b5-11ed-9c12-0200cd936042'; // API Key
                     $req = "https://2factor.in/API/V1/".$api_key."/SMS/".$phone."/".$code;
 
@@ -41,7 +41,7 @@ if(isset($_POST['signup'])){
             }
             else
             {
-                $info = "We've sent a verification code to your email - $email";
+                $info = "We've sent a verification code to your Phone - $email";
                 $_SESSION['info'] = $info;
                 $_SESSION['email'] = $email;
                 $_SESSION['password'] = $password;
@@ -99,7 +99,7 @@ if(isset($_POST['signup'])){
                   $_SESSION['password'] = $password;
                     header('location: ../index.php');
                 }else{
-                    $info = "It's look like you haven't still verify your email - $email";
+                    $info = "It's look like you haven't still verify your Phone - $email";
                     $_SESSION['info'] = $info;
                     header('location: user-otp.php');
                 }
@@ -124,7 +124,7 @@ if(isset($_POST['signup'])){
 
 
                
-                       $phone = "+919304574542"; // target number; includes ISD
+                       $phone = $email; // target number; includes ISD
                     $api_key = '2ef633e8-05b5-11ed-9c12-0200cd936042'; // API Key
                     $req = "https://2factor.in/API/V1/".$api_key."/SMS/".$phone."/".$code;
 
