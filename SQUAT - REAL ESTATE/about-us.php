@@ -137,7 +137,7 @@
 							<div class="pgl-team-item pgl-bg-light">
 								
 								<div class="img-thumbnail-medium">
-									<a href="#"><img src="images/agents/team-1.jpg" class="img-responsive" alt=""></a>
+									<a href="#"><img src="images/agents/team2.jpeg" class="img-responsive" alt=""></a>
 									<ul class="social-links">
 										<li><a href="https://www.facebook.com/profile.php?id=100006169276634"><i class="fa fa-facebook"></i></a></li>
 										<li><a href="https://mobile.twitter.com/PriyranjanRaj"><i class="fa fa-twitter"></i></a></li>
@@ -158,7 +158,7 @@
 							<div class="pgl-team-item pgl-bg-light">
 								
 								<div class="img-thumbnail-medium">
-									<a href="#"><img src="images/agents/team-1.jpg" class="img-responsive" alt=""></a>
+									<a href="#"><img src="images/agents/team3.png" class="img-responsive" alt=""></a>
 									<ul class="social-links">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -179,7 +179,7 @@
 							<div class="pgl-team-item pgl-bg-light">
 								
 								<div class="img-thumbnail-medium">
-									<a href="#"><img src="images/agents/team-1.jpg" class="img-responsive" alt=""></a>
+									<a href="#"><img src="images/agents/team3.png" class="img-responsive" alt=""></a>
 									<ul class="social-links">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -201,7 +201,7 @@
 							<div class="pgl-team-item pgl-bg-light">
 								
 								<div class="img-thumbnail-medium">
-									<a href="#"><img src="images/agents/team-1.jpg" class="img-responsive" alt=""></a>
+									<a href="#"><img src="images/agents/team3.png" class="img-responsive" alt=""></a>
 									<ul class="social-links">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 										<li><a href="#"><i class="fa fa-twitter"></i></a></li>

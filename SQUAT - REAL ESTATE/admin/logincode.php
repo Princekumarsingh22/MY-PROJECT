@@ -8,7 +8,7 @@ if(isset($_POST['login_btn']))
     $email=$_POST['email'];
     $password=$_POST['password'];
 
-    $log_query="SELECT *FROM user_profile WHERE useremail='$email' AND userpassword='$password' LIMIT 1";
+    $log_query="SELECT *FROM usertable WHERE email='$email' AND password='$password' LIMIT 1";
     $log_query_run=mysqli_query($con,$log_query);
 
     if(mysqli_num_rows($log_query_run) > 0)

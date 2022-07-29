@@ -1,4 +1,4 @@
-<?php include('authentication.php'); ?>
+<?php/*  include('authentication.php'); */ ?>
 <?php include('includes/header.php'); ?>
 <?php include('includes/connection.php'); ?>
 <!-- Begin Main -->

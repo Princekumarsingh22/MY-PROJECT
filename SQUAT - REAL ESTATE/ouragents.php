@@ -1,4 +1,4 @@
-<?php include('authentication.php'); ?>
+<?php /* include('authentication.php'); */ ?>
 <?php include('includes/header.php') ?>
 
 <!-- Begin Featured Agents -->

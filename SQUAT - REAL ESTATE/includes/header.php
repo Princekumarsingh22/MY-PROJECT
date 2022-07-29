@@ -115,7 +115,7 @@
 								<ul class="dropdown-menu">
 									<li><a href="login/signup-user.php">Signup</a></li>
 									<li><a href="admin/index.php">Admin</a></li>
-									<li><a><form action="code.php" method="post">
+									<li><a><form action="login/login-user.php" method="post">
 										<button type="submit" class="dropdown-item btn btn-dark" style="background:#151515; color:white;" name="logout_btn">Logout</button>
 									</form></a></li>
 								</ul>
